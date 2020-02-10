@@ -20,7 +20,6 @@ public class TestBase {
 
 		String browser=CommonMethods.GetPropertyValue("Browser");
 
-		System.out.println("browser -> " + browser);
 
 		if (browser.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
